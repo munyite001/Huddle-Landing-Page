@@ -160,7 +160,7 @@ main {
     text-align: center;
     box-shadow: var(--dark-shadow);
     border-radius: 10px;
-    transform: translateY(50%);
+    transform: translateY(65%);
 
 }
 
@@ -176,9 +176,10 @@ footer {
     color: white;
     padding: 1rem;
 }
+
 #footer-logo {
     color: white;
-    
+    margin-top: 5rem;
 }
 
 

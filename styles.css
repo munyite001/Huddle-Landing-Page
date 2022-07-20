@@ -150,6 +150,7 @@ main {
 
 /* Call to Action */
 .call-to-action {
+    background-color: white;
     margin: 1rem auto;
     padding: 1rem;
     display: flex;

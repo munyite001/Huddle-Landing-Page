@@ -353,23 +353,30 @@ footer {
 }
 
 /* ACTIVE STATES */
-.header-btn:hover {
+.header-btn:active {
     opacity: 0.8;
     cursor: pointer;
 }
-.get-started-btn:hover {
+.get-started-btn:active {
    background-color: hsl(322, 100%, 80%);
    cursor: pointer;
 }
-.footer-link:hover {
+.footer-link:active {
     cursor: pointer;
     text-decoration: underline;
 }
-.icons:hover {
+.footer-link:hover {
+    cursor: pointer;
+    color: hsl(322, 100%, 80%);
+}
+
+.icons:active {
     color: var(--pink);
     border-color: var(--pink);
 }
-
+.icons:hover {
+    border-color: var(--pink);
+}
 /* SCROLLBAR */
 ::-webkit-scrollbar {
     width: 7px;

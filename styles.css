@@ -54,12 +54,12 @@ header {
 }
 /* Header btn */
 .header-btn{
-    height: 2rem;
+    height: 2.5rem;
     width: 8rem;
-    border-radius: 1rem;
+    border-radius: 20px;
     border: none;
     outline: none;
-    font-size: var(--font-sz);
+    font-size: 15px;
     font-weight: var(--font-400);
     color: var(--very-dark-cyan);
     background-color: white;
@@ -96,7 +96,7 @@ header {
 .get-started-btn {
     width: 15rem;
     height: 3rem;
-    border-radius: 20px;
+    border-radius: 25px;
     font-size: 15px;
     background-color: var(--pink);
     border: none;
@@ -116,8 +116,9 @@ main {
 /* SECTIONS */
 .container {
     width: 100%;
-    
 }
+
+/* Card Components */
 
 .content {
     margin: 1rem auto 2rem auto;
@@ -175,6 +176,7 @@ main {
     font-weight: var(--font-700);
 }
 
+/* Footer */
 
 footer {
     background-color: var(--very-dark-cyan);
@@ -211,11 +213,14 @@ footer {
     display: block;
     margin: .5rem auto;
 }
+
 .footer-icon {
     margin-top: .3rem;
     display: inline-block;
     margin-right: .5rem;
 }
+
+/* Social Icons */
 .social-icons {
     
     display: flex;
@@ -233,10 +238,14 @@ footer {
     display: flex;
     flex-direction: column;
 }
+/* COpyWright */
 .copy {
     text-align: center;
 }
 
+
+
+/* DESKTOP DESIGNS */
 @media (min-width: 700px)
 {
     header {
@@ -343,11 +352,42 @@ footer {
 
 }
 
+/* ACTIVE STATES */
+.header-btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.get-started-btn:hover {
+   background-color: hsl(322, 100%, 80%);
+   cursor: pointer;
+}
+.footer-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.icons:hover {
+    color: var(--pink);
+    border-color: var(--pink);
+}
 
-/* ATTRIBUTION */
-.attribution { 
-    font-size: 11px; text-align: center;
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%);
-}
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--Grayish-blue); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--pink); 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--very-pale-cyan); 
+  }

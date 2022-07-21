@@ -357,10 +357,17 @@ footer {
     opacity: 0.8;
     cursor: pointer;
 }
+.header-btn:hover {
+    cursor: pointer;
+}
 .get-started-btn:active {
    background-color: hsl(322, 100%, 80%);
    cursor: pointer;
 }
+.get-started-btn:hover {
+    cursor: pointer;
+}
+
 .footer-link:active {
     cursor: pointer;
     text-decoration: underline;

@@ -334,7 +334,10 @@ footer {
     }
     .icons {
         margin: 0 1rem;
-        padding: 1rem;
+        padding: .7rem;
+    }
+    .icons > * {
+        font-size: var(--font-sz);
     }
 
 
